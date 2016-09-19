@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+
+</head>
+
+<body>
+    <button id="click-me">Click Me</button>
+    <div id="hidden-element" style="display: none">You should only see me after the button is clicked</div>
+    <h1>My Twitter Accounts</h1>
+    <table id="twitter-list">
+        <tr>
+            <td class="twitter-screen-name">kpschrade</td>
+        </tr>
+        <tr>
+            <td class="twitter-screen-name">magiumlib</td>
+        </tr>
+        <tr>
+            <td class="twitter-screen-name">skwawkit</td>
+        </tr>
+    </table>
+    <div id="orphaned-text">
+        <p>The number <em id="random-number"></em>!</p>
+    </div>
+<script type="text/javascript">
+    $('#click-me').click(function(){
+        $('#hidden-element').show();
+    });
+    $('#random-number').text((Math.floor(Math.random() * (10 - 0 + 1))));
+</script>
+</body>
+</html>
