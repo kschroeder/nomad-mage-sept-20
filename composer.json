@@ -11,5 +11,10 @@
   ],
   "require": {
     "magium/magento": "^0.5.18"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nomad\\": "tests"
+    }
   }
 }

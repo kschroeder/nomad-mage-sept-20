@@ -1,9 +1,8 @@
 <?php
 
-namespace Tests\Admin\Product;
+namespace Nomad\Tests\Admin\Product;
 
 use Facebook\WebDriver\WebDriverSelect;
-use Magium\Magento\AbstractMagentoTestCase;
 use Magium\Magento\Actions\Admin\Login\Login;
 use Magium\Magento\Actions\Admin\Tables\ClearTableFilters;
 use Magium\Magento\Actions\Admin\Tables\ClickButton;
@@ -12,11 +11,10 @@ use Magium\Magento\Actions\Admin\WaitForPageLoaded;
 use Magium\Magento\Actions\Admin\Widget\ClickActionButton;
 use Magium\Magento\Extractors\Admin\Widget\Attribute;
 use Magium\Magento\Navigators\Admin\AdminMenu;
-use Magium\Magento\Navigators\Admin\Widget\Tab;
 use Magium\WebDriver\WebDriver;
-use Tests\Magium\Magento\Admin\GridWidgetTest;
+use Nomad\Tests\AbstractTestCase;
 
-class SmokeTest extends AbstractMagentoTestCase
+class SmokeTest extends AbstractTestCase
 {
 
     public function testProductSave()

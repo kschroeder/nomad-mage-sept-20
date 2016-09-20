@@ -1,9 +1,8 @@
 <?php
 
-namespace Examples;
+namespace Nomad\Tests;
 
 use Facebook\WebDriver\WebDriverBy;
-use Magium\AbstractTestCase;
 
 class StructureTest extends AbstractTestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Test;
+namespace Nomad\Tests;
 
 
 use Facebook\WebDriver\Chrome\ChromeDriver;

@@ -1,11 +1,11 @@
 <?php
-namespace Tests;
+namespace Nomad\Tests;
 
 use Magium\Magento\AbstractMagentoTestCase;
 use Magium\Magento\Navigators\BaseMenu;
 use Magium\Magento\Navigators\Catalog\Product;
 
-class GoodTest extends AbstractMagentoTestCase
+class GoodTest extends AbstractTestCase
 {
     /**
      * Tests user story https://10nsoftware.tpondemand.com/entity/195

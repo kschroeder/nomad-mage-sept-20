@@ -435,16 +435,16 @@
         },
         {
             "name": "magium/magium",
-            "version": "0.6.16",
+            "version": "0.6.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magium/Magium.git",
-                "reference": "02966e5d1d2d313e79eba2d26b259d3af3f476f9"
+                "reference": "73ec68d7581d1228e8766226eaf5c91c58e99dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magium/Magium/zipball/02966e5d1d2d313e79eba2d26b259d3af3f476f9",
-                "reference": "02966e5d1d2d313e79eba2d26b259d3af3f476f9",
+                "url": "https://api.github.com/repos/magium/Magium/zipball/73ec68d7581d1228e8766226eaf5c91c58e99dc6",
+                "reference": "73ec68d7581d1228e8766226eaf5c91c58e99dc6",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2016-06-28 00:15:58"
+            "time": "2016-09-20 13:19:54"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1072,22 +1072,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1101,12 +1109,13 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2016-09-19 16:02:08"
         },
         {
             "name": "sebastian/comparator",
